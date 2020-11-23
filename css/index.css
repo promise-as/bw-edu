@@ -141,7 +141,6 @@ body {
 
 .banner a {
   display: block;
-  height: 450px;
 }
 
 .title {
@@ -183,6 +182,13 @@ body {
   color: #00a8ff;
   text-align: center;
   font-size: 16px;
+}
+.btn.w250 {
+  display: block;
+  width: 248px;
+  margin: 0 auto;
+  background: #00a8ff;
+  color: #fff;
 }
 .btn:hover {
   background: #00a8ff;
@@ -386,6 +392,9 @@ body {
   width: 224px;
   margin: 0 20px 20px 0;
 }
+.college li a {
+  display: block;
+}
 .college li img {
   border-radius: 10px;
 }
@@ -394,13 +403,6 @@ body {
   line-height: 20px;
   font-size: 20px;
   font-weight: bold;
-}
-.college .btn {
-  display: block;
-  width: 250px;
-  margin: 0 auto;
-  background: #00a8ff;
-  color: #fff;
 }
 
 .major {
@@ -484,6 +486,9 @@ body {
   float: left;
   width: 285px;
   margin: 0 20px 20px 0;
+}
+.course li a {
+  display: block;
 }
 .course .name {
   height: 60px;
@@ -580,9 +585,10 @@ body {
 .list .list-l {
   float: left;
   width: 788px;
-  padding-top: 20px;
+  padding-top: 4px;
 }
 .list .list-l li {
+  height: 140px;
   padding-top: 20px;
   border-bottom: 1px solid #eee;
 }
@@ -603,14 +609,17 @@ body {
 .list .list-r {
   float: right;
   width: 390px;
+  padding-top: 30px;
 }
 .list .list-r .r-apply {
+  top: 0;
+  width: 350px;
   padding: 24px 20px 20px;
   margin-bottom: 20px;
-  background: url(../images/f.png);
+  background: url(../images/f.png) no-repeat;
 }
 .list .list-r .sign-in {
-  padding: 20px;
+  padding: 20px 20px 5px;
   background-color: #ffffff;
   border-radius: 10px;
 }
@@ -622,6 +631,22 @@ body {
 .list .list-r .sign-in input[type="submit"] {
   border-radius: 22px;
   color: #fff;
+}
+.list .list-r .a-title {
+  margin-bottom: 10px;
+  line-height: 24px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.list .list-r .a-subtitle {
+  margin-bottom: 20px;
+  color: #999999;
+  text-align: center;
+}
+.list .list-r .apply-size {
+  display: none;
+  height: 508px;
 }
 .list .list-r .r-gain {
   padding: 20px;
@@ -877,13 +902,6 @@ body {
   box-shadow: 0px 10px 40px 0px rgba(0, 37, 138, 0.1);
   color: #fff;
 }
-.scheme .btn {
-  display: block;
-  width: 250px;
-  margin: 0 auto;
-  background: #00a8ff;
-  color: #fff;
-}
 
 .data {
   height: 540px;
@@ -988,13 +1006,6 @@ body {
   border-radius: 10px;
   border: solid 1px #00a8ff;
   text-align: center;
-}
-.question .btn {
-  display: block;
-  width: 250px;
-  margin: 0 auto;
-  background: #00a8ff;
-  color: #fff;
 }
 
 .article2 .a-cont {

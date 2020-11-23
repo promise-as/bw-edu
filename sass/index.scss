@@ -137,10 +137,8 @@ body {
   }
 }
 .banner {
-  // display: none;
   a {
     display: block;
-    height: 450px;
   }
 }
 .title {
@@ -182,6 +180,13 @@ body {
   color: $active-color;
   text-align: center;
   font-size: 16px;
+  &.w250{
+    display: block;
+    width: 248px;
+    margin: 0 auto;
+    background: $active-color;
+    color: #fff;
+  }
   &:hover {
     background: $active-color;
     color: #fff;
@@ -390,6 +395,9 @@ body {
     float: left;
     width: 224px;
     margin: 0 20px 20px 0;
+    a {
+      display: block;
+    }
     img {
       border-radius: 10px;
     }
@@ -399,13 +407,6 @@ body {
       font-size: 20px;
       font-weight: bold;
     }
-  }
-  .btn {
-    display: block;
-    width: 250px;
-    margin: 0 auto;
-    background: $active-color;
-    color: #fff;
   }
 }
 .major {
@@ -494,6 +495,9 @@ body {
     float: left;
     width: 285px;
     margin: 0 20px 20px 0;
+    a {
+      display: block;
+    }
   }
   .name {
     height: 60px;
@@ -597,8 +601,9 @@ body {
   .list-l {
     float: left;
     width: 788px;
-    padding-top: 20px;
+    padding-top: 4px;
     li {
+      height: 140px;
       padding-top: 20px;
       border-bottom: 1px solid #eee;
     }
@@ -621,13 +626,16 @@ body {
   .list-r {
     float: right;
     width: 390px;
+    padding-top: 30px;
     .r-apply {
+      top: 0;
+      width: 350px;
       padding: 24px 20px 20px;
       margin-bottom: 20px;
-      background: url(../images/f.png);
+      background: url(../images/f.png) no-repeat;
     }
     .sign-in {
-      padding: 20px;
+      padding: 20px 20px 5px;
       background-color: #ffffff;
       border-radius: 10px;
       select,
@@ -639,6 +647,22 @@ body {
         border-radius: 22px;
         color: #fff;
       }
+    }
+    .a-title {
+      margin-bottom: 10px;
+      line-height: 24px;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .a-subtitle {
+      margin-bottom: 20px;
+      color: #999999;
+      text-align: center;
+    }
+    .apply-size {
+      display: none;
+      height: 508px;
     }
     .r-gain {
       padding: 20px;
@@ -904,13 +928,6 @@ body {
       color: #fff;
     }
   }
-  .btn {
-    display: block;
-    width: 250px;
-    margin: 0 auto;
-    background: $active-color;
-    color: #fff;
-  }
 }
 .data {
   height: 540px;
@@ -1017,13 +1034,6 @@ body {
       border: solid 1px #00a8ff;
       text-align: center;
     }
-  }
-  .btn {
-    display: block;
-    width: 250px;
-    margin: 0 auto;
-    background: $active-color;
-    color: #fff;
   }
 }
 .article2 {
